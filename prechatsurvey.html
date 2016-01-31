@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="prechatsurveystyle.css">
+</head>
+<body>
+    <div class="header">
+    	 <img class="logo" src="assets/logo-best-brands.png" alt="logo-best-brands">
+    	 <img class="close-btn" src="assets/btn-close.png" alt="btn-close">
+    </div>
+    <div class="mobile-topic">
+    	Which Mobile topic would you like help with?
+    </div>
+    <form action="action_page.php" class="info-form">
+        <div class="name-div">
+            Full Name:*
+        </div>
+        <input type="text" class="name-textbox" name="fullname" placeholder="John Doe"><br>
+        <div class="phone-div">
+            Mobile Phone Number:*
+        </div>
+        <input type="text" class="phone-textbox" name="phonenumber" placeholder="ex: 123-123-1234"><br><br>
+        <div class="state-div">
+            State:
+        </div>
+        <select name="State" class="state-selector" id="state">
+            <option>Select one</option>
+            <option value="Alabama">Alabama</option>
+            <option value="California">California</option>
+            <option value="Wisconsin">Wisconsin</option>
+            <option value="Wyoming">Wyoming</option>                              
+        </select><br>
+        <div class="description-div">
+            Describe your question...
+        </div>
+        <textarea type="text" class="description-textbox"></textarea><br>
+        <input type="submit" value="Start Chat" class="submit">
+        <div class="required-div">
+            * Required field
+        </div>
+    </form>
+    <div class="footer">
+    	<img class="logo-tc" src="assets/logo-tc.png" alt="logo-tc">
+    </div>
+</body>
+
+</html>

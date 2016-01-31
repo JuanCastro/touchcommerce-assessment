@@ -1,0 +1,81 @@
+html, body {
+	width: 300px;
+	height: 470px;
+	margin: 0;
+	padding: 0;
+	-moz-border-radius-topleft: 50px 25px;
+	border-top-left-radius: 50px 25px;
+	font-family: arial;
+}
+.header {
+	background-color: black;
+	height: 40px;
+	border-bottom: 4px solid #aaf200;
+}
+.logo {
+	width:35%;
+	height:130%;
+	margin: 5px 0 0 12px;
+}
+.close-btn {
+	width:5%;
+	height:40%;
+	float: right;
+	margin: 10px 10px 0 0;
+}
+.home-text {
+	font-size: 14px;
+	margin-left: 25px;
+	padding-top: 30px;
+}
+.green-text {
+	color: #00b300;
+}
+.grey-text {
+	color: grey;
+}
+.mobile-topic {
+	margin: 20px 0 0 25px;
+	font-weight: bold;
+	font-size: 16px;
+	width: 80%;
+}
+.containing-div {
+	padding: 5px 0 0 25px;
+	margin-top: 15px;
+	display: table;
+}
+.containing-div:hover {
+	background-color: rgba(124,207,41,.3);
+	color: green;
+	cursor: pointer;
+}
+.containing-div:focus {
+	background-color: rgba(124,207,41,1);
+	color: green;
+	cursor: pointer;
+}
+.inner-text {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 10px;
+	font-size: 15px;
+	width: 100%;
+}
+.back-div {
+	margin-top: 18px;
+}
+.back-button-text {
+	font-weight: bold;
+	color: #a1a1a1;
+}
+.footer {
+	background-color: #e6e6e6;
+	width: 300px;
+	margin-top: 20px;
+}
+.logo-tc {
+	width:35%;
+	height:130%;
+	margin-left: 5px;
+}
